@@ -1,7 +1,26 @@
+.navbar>li{
+  display: inline-block;
+  width: 60px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  color: black;
+}
+
 .container {
   width: 800px;
   height: 240px;
   border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-text {
@@ -51,6 +70,7 @@
   margin: 8px;
   margin-top: 15px;
   padding: 0px 8px;
+  clear: both;
 }
 
 .description h3 {
