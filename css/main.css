@@ -48,12 +48,13 @@ body {
   text-align: center;
   position: relative;
   bottom: 35px;
-  padding: 40px 20px;
+  padding: 40px 25px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   width: 630px;
+  box-sizing: border-box;
 }
 
 .sub-background h5 {
