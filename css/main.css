@@ -1,6 +1,7 @@
 body {
   margin: 0px;
 }
+
 .main-background {
   width: 100%;
   height: 500px;
@@ -43,27 +44,24 @@ body {
 }
 
 .explain-background {
-  margin: 0px;
-  background-color: #eee;
-  text-align: center;
-  position: relative;
-  bottom: 35px;
-  padding: 40px 25px;
-  left: 0;
-  right: 0;
+  width: 80%;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  width: 630px;
-  box-sizing: border-box;
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  top: -40px;
 }
 
-.sub-background h5 {
+.explain-background h5 {
   font-size: 18px;
   margin: 0;
   margin-bottom: 25px;
 }
 
-.sub-background p {
+.explain-background p {
   font-size: 15px;
   margin: 0;
 }
