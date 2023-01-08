@@ -1,7 +1,12 @@
+body {
+  background-color: #b2ccd6;
+}
+
 div {
   width: 600px;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: white;
 }
 
 table {
@@ -9,32 +14,44 @@ table {
   border-collapse: collapse;
   height: 250px;
   border-style: hidden;
+  font-size: 11px;
 }
 
 td {
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 /* 행 높이 */
 
-tr:first-child {
+thead tr {
   height: 30px;
+  color: #8ea0b3;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 600;
 }
 
-tr:nth-child(2),
-tr:nth-child(3) {
+tbody tr:first-child,
+tbody tr:nth-child(2) {
   height: 80px;
+  color: #a2b8bf;
+  font-weight: 600;
+  font-size: 15px;
 }
 
-tr:last-child {
+tbody tr:last-child {
   height: 60px;
+  color: #21436c;
+  font-weight: 600;
+  font-size: 18px;
 }
-
-/* 행 높이 */
+/* ----------------------------------------------------- */
 
 /* 열 너비 */
 tr td:first-child {
   width: 120px;
+  text-align: center;
 }
 
 tr td:nth-child(2) {
@@ -43,19 +60,44 @@ tr td:nth-child(2) {
 
 tr td:nth-child(3) {
   width: 60px;
+  text-align: end;
 }
 
 tr td:nth-child(4) {
   width: 90px;
+  text-align: end;
 }
 
 tr td:last-child {
   width: 120px;
+  text-align: end;
+  padding-right: 30px;
 }
 
-/* 열 높이 */
+/* ----------------------------------------------------- */
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
+}
+
+.product-brand {
+  color: black;
+  margin: 0px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.product-name {
+  margin: 0px;
+}
+
+.product-number,
+.product-price {
+  opacity: 0.7;
+}
+
+.product-total-price {
+  color: #21436c;
 }
