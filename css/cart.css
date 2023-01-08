@@ -2,11 +2,19 @@ body {
   background-color: #b2ccd6;
 }
 
-div {
+.title {
   width: 600px;
-  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  color: #21436c;
+}
+
+.table {
+  width: 600px;
   border-radius: 5px;
   background-color: white;
+  margin: 35px auto;
 }
 
 table {
@@ -18,7 +26,7 @@ table {
 }
 
 td {
-  border: 1px solid black;
+  border-bottom: 2px solid #cbdce3;
   box-sizing: border-box;
 }
 
@@ -77,8 +85,8 @@ tr td:last-child {
 /* ----------------------------------------------------- */
 
 img {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
 }
 
 .product-brand {
@@ -100,4 +108,29 @@ img {
 
 .product-total-price {
   color: #21436c;
+}
+
+.footer {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer a {
+  color: #21436c;
+}
+
+.footer button {
+  float: right;
+  padding: 20px;
+  color: white;
+  background-color: #21436c;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+  bottom: 5px;
+}
+
+.clear {
+  clear: both;
 }
