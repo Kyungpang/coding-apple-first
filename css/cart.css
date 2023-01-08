@@ -1,33 +1,33 @@
-body {
+.cart-background {
+  width: 100%;
   background-color: #b2ccd6;
+  padding: 40px;
 }
 
 .title {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  color: #21436c;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 60px;
-  color: #21436c;
+  margin-bottom: 40px;
 }
 
-.table {
-  width: 600px;
-  border-radius: 5px;
-  background-color: white;
-  margin: 35px auto;
-}
-
-table {
+.cart-table {
   width: 100%;
+  max-width: 600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
   border-collapse: collapse;
   height: 250px;
-  border-style: hidden;
   font-size: 11px;
+  border-radius: 15px;
 }
 
 td {
-  border-bottom: 2px solid #cbdce3;
   box-sizing: border-box;
+  border-bottom: 1px solid #b2ccd6;
 }
 
 /* 행 높이 */
@@ -112,8 +112,7 @@ img {
 
 .footer {
   width: 600px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 40px auto;
 }
 
 .footer a {
@@ -125,7 +124,7 @@ img {
   padding: 20px;
   color: white;
   background-color: #21436c;
-  border: 1px solid black;
+  border: 1px solid #21436c;
   border-radius: 5px;
   position: relative;
   bottom: 5px;
