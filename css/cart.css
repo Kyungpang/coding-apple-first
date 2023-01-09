@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #b2ccd6;
   padding: 40px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -23,11 +24,12 @@
   height: 250px;
   font-size: 11px;
   border-radius: 15px;
+  border-style: hidden;
 }
 
 td {
+  border-bottom: 2px solid #b2ccd6;
   box-sizing: border-box;
-  border-bottom: 1px solid #b2ccd6;
 }
 
 /* 행 높이 */
