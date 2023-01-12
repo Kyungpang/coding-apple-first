@@ -3,16 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <title>Kyungpang</title>
-    <link rel="stylesheet" href="css/practice.css" />
+    <style>
+      div {
+        width: 600px;
+        margin-bottom: 20px;
+        padding: 10px 30px;
+        background-color: lightblue;
+        font-family: Consolas;
+      }
+
+      .a-box {
+        box-shadow: 5px 5px;
+      }
+      .b-box {
+        box-shadow: 5px 5px 5px;
+      }
+      .c-box {
+        box-shadow: 5px 5px 5px 5px;
+      }
+      .d-box {
+        box-shadow: aquamarine 5px 5px 5px 5px;
+      }
+      .e-box {
+        box-shadow: 5px 5px 5px 5px coral inset;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="header"></div>
-      <div class="left-menu"></div>
-      <div class="right"></div>
-      <div class="footer"></div>
+    <div class="a-box">
+      <p>box-shadow: 5px 5px;</p>
     </div>
-
-    <div class="shadow-box"></div>
+    <div class="b-box">
+      <p>box-shadow: 5px 5px 5px;</p>
+    </div>
+    <div class="c-box">
+      <p>box-shadow: 5px 5px 5px 5px;</p>
+    </div>
+    <div class="d-box">
+      <p>box-shadow: 5px 5px 5px 5px gray;</p>
+    </div>
+    <div class="e-box">
+      <p>box-shadow: 5px 5px 5px 5px gray inset;</p>
+    </div>
   </body>
 </html>
