@@ -1,0 +1,56 @@
+div,
+img {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 300px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.content-text {
+  width: 75%;
+  height: 200px;
+
+  float: left;
+}
+
+.content-img {
+  width: 25%;
+  height: 200px;
+  float: left;
+}
+
+.profile-img {
+  width: 50px;
+  float: left;
+  margin-right: 5px;
+}
+
+.profile-user {
+  width: 65px;
+  float: left;
+}
+
+.profile-user h4 {
+  margin: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.profile-user span {
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+.description p {
+  opacity: 0.6;
+  font-size: 13.5px;
+}
+
+.clear-box {
+  clear: both;
+}
