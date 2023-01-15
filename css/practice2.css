@@ -14,7 +14,6 @@ img {
 .content-text {
   width: 75%;
   height: 200px;
-
   float: left;
 }
 
@@ -46,6 +45,9 @@ img {
   font-size: 13px;
 }
 
+.description {
+  clear: both;
+}
 .description p {
   opacity: 0.6;
   font-size: 13.5px;
