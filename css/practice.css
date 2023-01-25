@@ -29,6 +29,7 @@ textarea {
 
 .w-100 {
   width: 100%;
+  position: relative;
   padding: 10px;
 }
 
@@ -57,9 +58,11 @@ textarea {
   color: white;
   border: none;
   border-radius: 5px;
-  float: right;
-  position: relative;
-  bottom: 6px;
+  display: block;
+  margin-left: auto;
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
 }
 
 .clear {
